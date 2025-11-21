@@ -7,6 +7,11 @@ defmodule FirstPrjectWeb.UserLive.Index do
   def render(assigns) do
     ~H"""
     <Layouts.app flash={@flash}>
+    <div class="mb-4">
+    <.link navigate="/" class="text-sm text-blue-600 hover:text-blue-800">
+      ← Back to Home
+    </.link>
+    </div>
       <.header>
         Listing Users
         <:actions>

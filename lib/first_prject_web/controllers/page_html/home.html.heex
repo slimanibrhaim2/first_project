@@ -1,6 +1,24 @@
 <Layouts.flash_group flash={@flash} />
 
-<div class="min-h-screen flex items-center justify-center">
-  <h1 class="text-4xl font-bold">Hello, Phoenix!</h1>
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+  <div class="text-center space-y-8 p-8">
+    <h1 class="text-5xl font-bold text-gray-800">Welcome to Phoenix!</h1>
+    <p class="text-xl text-gray-600">User Management System</p>
+    
+    <div class="flex gap-4 justify-center mt-8">
+      <a 
+        href="/users" 
+        class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+      >
+        📋 View All Users
+      </a>
+      
+      <a 
+        href="/users/new" 
+        class="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-lg"
+      >
+        ➕ Add New User
+      </a>
+    </div>
+  </div>
 </div>
- 
