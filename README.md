@@ -202,12 +202,6 @@ This is a learning project, but suggestions and improvements are welcome!
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
-
-**Your Name**
-- Learning Phoenix Framework
-- Building modern web applications with Elixir
-
 ## 🎓 What I Learned
 
 Through this project, I learned:
